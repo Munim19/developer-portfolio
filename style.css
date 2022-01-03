@@ -31,8 +31,27 @@ font-weight: bold;
 .first{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
-
-
-
+}
+.good{
+    padding-left: 7%;
+    
+}
+.good img{
+    height: 80%;
+}
+.next{
+    padding-right: 10%;
+}
+.re{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, yellow);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight : bold;
+}
+.up{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
