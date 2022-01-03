@@ -1,0 +1,38 @@
+body{
+    font-family: 'Bitter', serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.ok{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.ok img{
+    height: 80%;
+}
+.button{
+text-decoration: none;
+background-image: linear-gradient(tomato, yellow);
+padding: 10px;
+border-radius: 5px;
+color: black;
+font-weight: bold;
+
+}
+.first{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+
+
+
+}
