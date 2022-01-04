@@ -1,6 +1,7 @@
 body{
     font-family: 'Bitter', serif;
     margin: 0;
+    margin-bottom: 70px;
 }
 h1{
     font-size: 50px;
@@ -8,12 +9,13 @@ h1{
 span{
     color: orange;
 }
-section{
+.new-use{
     display: flex;
 }
 .ok{
     width: 50%;
     padding-left: 5%;
+    padding-right: 2%;
     
 }
 .ok img{
@@ -54,4 +56,38 @@ font-weight: bold;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.font{
+    color: blue;
+}
+.new-one{
+    box-shadow: 20px 10px 40px rebeccapurple;
+    width: 60%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    
+
+}
+.pop{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border{
+
+    border-left: 5px solid;
+    border-image: linear-gradient(purple, red);
+    border-image-slice: 1;
+}
+#one{
+    border-left: 5px solid;
+    border-image: linear-gradient(purple, red);
+    border-image-slice: 1;
+}
+footer  {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+    font-size: 20px;
 }
